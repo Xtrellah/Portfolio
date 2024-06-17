@@ -18,7 +18,7 @@ body {
     margin: 0px auto;
     padding: 0px;
     gap: 15px;
-    background-color: white;
+    background-color: orange;
 }
 
 .container div {
@@ -28,24 +28,30 @@ body {
 }
 
 /* NAVBAR */
-.navbar {
+.navlist {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-} li {
-    float: left;
-} li a {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+} .item {
+    display: inline-block;
+    width: 180px;
+    height: 100%;
+    font-weight: none;
+} .item a {
     display: block;
     color: orange;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
 } li a:hover {
     background-color: #111;
 }
 
+/* MAIN BODY */
 .top {
     display: flex;
     gap: 15px;
