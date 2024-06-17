@@ -27,6 +27,8 @@ body {
 
 }
 
+
+
 /* NAVBAR */
 .navlist {
     list-style-type: none;
@@ -51,6 +53,8 @@ body {
     background-color: #111;
 }
 
+
+
 /* MAIN BODY */
 .top {
     display: flex;
@@ -71,6 +75,28 @@ body {
     border-color: orange;
     border-radius: 15px;
 }
+
+
+
+/* PORTFOLIO */
+.header {
+    display: flex;
+    justify-content: center;
+}
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.portfolio div {
+    width: 300px;
+    flex: auto;
+}
+
+
 
 /* FOOTER */
 footer {
