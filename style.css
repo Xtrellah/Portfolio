@@ -18,7 +18,7 @@ body {
     margin: 0px auto;
     padding: 0px;
     gap: 15px;
-    background-color: orange;
+    background-color: white;
 }
 
 .container div {
@@ -74,9 +74,27 @@ body {
 
 /* FOOTER */
 footer {
-
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
-
+.socials {
+    font-size: 2rem;
+    color: #333;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 250px;
+    margin-bottom: 15px;
+    align-content: center;
+  }
+  i {
+    color: #333;
+  }
+  i:hover {
+    color: #aaaaaa;
+  }
 
 
 
