@@ -79,8 +79,12 @@ h1 {
 
 body {
     background-color: var(--white);
-    font-family: sans-serif;
     margin: 0%;
+
+    font-family: "Days One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 
@@ -163,17 +167,38 @@ body {
     background-color: white;
 }
 
+/* FOOTER HEADER */
+.footer-header {
+    display: flex;
+    justify-content: flex-start;
 
+    font-family: "Days One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
 
 /* FOOTER */
 footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
 
     background-color: var(--light-grey);
     color: var(--white);
+
+    padding: 0px 0px 0px 50px;
+}
+.footer-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: start;
+}
+.contact-details {
+    width: 800px;
+    padding-left: 150px;
+    padding-right: 200px;
 }
 .socials {
     font-size: 2rem;
@@ -184,15 +209,22 @@ footer {
     width: 300px;
     margin-bottom: 15px;
     align-content: center;
-  }
-  i {
+}
+i {
     color: var(--icon-color);
     align-items: center;
     gap: 25px;
-  }
-  i:hover {
-    color: #aaaaaa;
-  }
+}
+i:hover {
+    color: var(--background-orange);
+}
+footer a {
+    color: var(--icon-color);
+}
+.copyright {
+    align-self: center;
+    padding-top: 15px;
+}
 
 
 
