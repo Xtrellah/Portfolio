@@ -2,15 +2,17 @@
     --icon-color: #fe6100;
     --dark-grey: #111111;
     --light-grey: #333333;
+    --white: whitesmoke;
+    --background-orange: #ffab3d;
+    --other-orange: #ffa500;
 }
 
 /* BANNER */
 .banner {
     display: flex;
     justify-content: flex-start;
-    
-    padding: 20px 20px;
-    background-color: #111;
+    padding: 20px 20px 10px 20px;
+    background-color: var(--dark-grey);
 } header span {
     color: var(--icon-color);
     gap: 15px;
@@ -20,6 +22,7 @@
     font-weight: 400;
     font-style: normal;
     gap: 25px;
+    padding-right: 15px;
     
 }
 
@@ -65,8 +68,9 @@ h1 {
 }
 
 body {
-    background-color: rgb(255, 171, 61);
-    font-family: sans-serif
+    background-color: var(--background-orange);
+    font-family: sans-serif;
+    margin: 0%;
 }
 
 
@@ -87,10 +91,11 @@ body {
 }
 
 
-/* MAIN BODY */
+/* MAIN */
 .main {
-    background-color: white;
-    padding: 10px;
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0%;
 }
 
 
@@ -117,27 +122,17 @@ body {
     display: flex;
     justify-content: space-evenly; 
 }
-.about-content div {
-    padding: 15px 25px 15px 25px;
-    align-items: center;
-}
 .about-head {
     color: var(--icon-color);
     font-family: "Rock Salt", cursive;
     font-weight: 400;
     font-style: normal;
 
-    border-style: solid;
-    border-color: whitesmoke;
-    border-right: whitesmoke;
 }
 .about-text {
-    padding: 0px 15px 0px 15px;
-
     background-color: none;
     color: whitesmoke;
-
-    
+    align-self: center;
 }
 
 
@@ -149,7 +144,7 @@ body {
 }
 .portfolio {
     border-style: solid;
-    border-color: orange;
+    border-color: #ffa500;
     display: flex;
     justify-content: space-between;
 
