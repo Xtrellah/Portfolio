@@ -227,6 +227,44 @@ footer a {
 }
 
 
+@media screen and (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 
+    .top-section {
+        padding: 0px;
+    }
+    .top {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 15px;
+        justify-content: center;
+    }
 
+    .about-content  {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    .about-head {
+        width: 180px;
+    }
+    .about-text {
+        align-self: center;
+    }
 
+    .footer-body{
+        flex-direction: column;
+    }
+    footer {
+        padding: 0px 50px 0px 50px;
+    }
+    .contact-details {
+        width: 800px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}
