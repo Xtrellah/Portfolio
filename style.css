@@ -67,7 +67,6 @@
     font-style: normal;
 }
   
-  
 
 /* MISC */
 h1 {
@@ -165,6 +164,12 @@ body {
     border-style: groove;
     border-color: grey;
     background-color: white;
+    width: 356px;
+}
+.target a {
+    color: var(--icon-color);
+}.target a:hover {
+    color: var(--other-orange);
 }
 
 /* FOOTER HEADER */
@@ -216,7 +221,7 @@ i {
     gap: 25px;
 }
 i:hover {
-    color: var(--background-orange);
+    color: var(--other-orange);
 }
 footer a {
     color: var(--icon-color);
