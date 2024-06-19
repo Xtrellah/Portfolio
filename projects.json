@@ -2,43 +2,43 @@
     "project": [
       {
         "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
-        "name": "CSSite",
-        "desc": "Counter-Strike informational website.",
+        "name": "Project 1",
+        "desc": "This project is...",
         "link": "https://github.com/Xtrellah/CSSite"
       },
       
       {
         "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
-        "name": "CSSite",
-        "desc": "Counter-Strike informational website.",
+        "name": "Project 2",
+        "desc": "This project is...",
         "link": "https://github.com/Xtrellah/CSSite"
       },
       
       {
         "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
-        "name": "CSSite",
-        "desc": "Counter-Strike informational website.",
+        "name": "Project 3",
+        "desc": "This project is...",
         "link": "https://github.com/Xtrellah/CSSite"
       },
       {
         "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
-        "name": "CSSite",
-        "desc": "Counter-Strike informational website.",
-        "link": "https://github.com/Xtrellah/CSSite"
-      },
-      
-      {
-        "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
-        "name": "CSSite",
-        "desc": "Counter-Strike informational website.",
+        "name": "Project 4",
+        "desc": "This project is...",
         "link": "https://github.com/Xtrellah/CSSite"
       },
       
       {
         "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
-        "name": "CSSite",
-        "desc": "Counter-Strike informational website.",
+        "name": "Project 5",
+        "desc": "This project is...",
         "link": "https://github.com/Xtrellah/CSSite"
+      },
+      
+      {
+        "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
+        "name": "Portfolio",
+        "desc": "This is the site you're currently viewing.",
+        "link": "https://github.com/Xtrellah/Portfolio"
       }
     ]
   }

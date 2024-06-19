@@ -11,7 +11,7 @@ fetch('projects.json').then(function (res) {
                 <img src="${project.image}" />
                 <h2>${project.name}</h2>
                 <p>${project.desc}</p>
-                <a href="${project.link}">
+                <a href="${project.link}">Check it out on GitHub!</a>
             </div>
         `
     })
