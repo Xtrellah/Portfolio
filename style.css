@@ -23,7 +23,6 @@
     font-style: normal;
     gap: 25px;
     padding-right: 15px;
-    
 }
 
 
@@ -43,10 +42,13 @@
     display: inline-block;
     width: 180px;
     height: 100%;
-    font-weight: none;
+    
+    font-family: "Days One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 } .item a {
     display: block;
-    color: orange;
+    color: var(--icon-color);
     text-align: center;
     padding: 20px 20px;
     text-decoration: none;
@@ -76,7 +78,7 @@ h1 {
 }
 
 body {
-    background-color: var(--background-orange);
+    background-color: var(--white);
     font-family: sans-serif;
     margin: 0%;
 }
@@ -98,19 +100,10 @@ body {
 
 }
 
-
-/* MAIN */
-.main {
-    background-color: whitesmoke;
-    padding: 0;
-    margin: 0%;
-}
-
-
-
-
+/* TOP */
 .top-section {
     background-color: whitesmoke;
+    padding: 50px 0px 50px 0px;
 }
 .top {
     display: flex;
@@ -119,7 +112,16 @@ body {
 
 }
 
+/* SECTION HEADER */
+.section-header {
+    display: flex;
+    justify-content: center;
 
+    font-family: "Days One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
 
 
 /* ABOUT */
@@ -132,10 +134,10 @@ body {
 }
 .about-head {
     color: var(--icon-color);
+    width: 250px;    
     font-family: "Rock Salt", cursive;
     font-weight: 400;
     font-style: normal;
-
 }
 .about-text {
     background-color: none;
@@ -144,32 +146,21 @@ body {
 }
 
 
-
 /* PORTFOLIO */
-.header {
-    display: flex;
-    justify-content: center;
-
-    font-family: "Days One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.portfolio {
+    padding-bottom: 50px;
 }
 .target {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
-    border-style: solid;
-    border-color: orange;
-
 }
 .target div {
     align-items: center;
     align-content: center;
     border-style: groove;
     border-color: grey;
-
-    
+    background-color: white;
 }
 
 
