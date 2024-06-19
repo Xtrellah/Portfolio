@@ -59,12 +59,20 @@
     font-family: "Rock Salt", cursive;
     font-weight: 400;
     font-style: normal;
+} .days-one-regular {
+    font-family: "Days One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+  
   
 
 /* MISC */
 h1 {
     font-size: 60px;
+    font-family: "Days One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -78,7 +86,7 @@ body {
 .container {
     width: 100%;
     height: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0px auto;
     padding: 0px;
     gap: 15px;
@@ -141,26 +149,23 @@ body {
 .header {
     display: flex;
     justify-content: center;
-}
-.portfolio {
-    border-style: solid;
-    border-color: #ffa500;
-    display: flex;
-    justify-content: space-between;
 
-    
+    font-family: "Days One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .target {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
+
     border-style: solid;
     border-color: orange;
 
 }
 .target div {
     align-items: center;
+    align-content: center;
     border-style: groove;
     border-color: grey;
 
@@ -171,23 +176,28 @@ body {
 
 /* FOOTER */
 footer {
-    display: table;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+
+    background-color: var(--light-grey);
+    color: var(--white);
 }
 .socials {
     font-size: 2rem;
-    color: #333;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    color: var(--white);
+    display: flex;
+    
     gap: 20px;
     width: 300px;
     margin-bottom: 15px;
     align-content: center;
   }
   i {
-    color: #333;
+    color: var(--icon-color);
+    align-items: center;
+    gap: 25px;
   }
   i:hover {
     color: #aaaaaa;
