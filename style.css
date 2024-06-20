@@ -273,6 +273,9 @@ footer a {
         cursor: pointer;
     }
 
+    .mobile-nav.visible {
+        display: none;
+    }
     .mobile-nav {
         display: flex;
         flex-direction: column;

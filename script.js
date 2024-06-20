@@ -1,16 +1,17 @@
 
 // MOBILE NAVBAR
+
 function toggleNavbar() {
-    var x = document.getElementById("mobile-nav");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
+    console.log('hello')
+    document.querySelector('.mobile-nav').classList.toggle('visible')
   }
+
+document.querySelector('.dropdown-button').addEventListener('click', toggleNavbar)
+
 
 
 // PORTFOLIO
+
 fetch('projects.json').then(function (res) {
     return res.json()
 }).then(function(data) {
