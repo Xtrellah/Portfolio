@@ -56,6 +56,10 @@
     background-color: #111;
 } 
 
+.dropdown {
+    display: none;
+}
+
 /* FONT */
 .rock-salt-regular {
     font-family: "Rock Salt", cursive;
@@ -231,8 +235,54 @@ footer a {
     padding-top: 15px;
 }
 
-
 @media screen and (max-width: 800px) {
+    
+    .navbar {
+        display: none;
+    }
+
+    .dropdown-main {
+    }
+    .dropdown-button {
+        background-color: var(--dark-grey);
+        color: var(--icon-color);
+        padding: 0px 16px 16px 16px;
+        font-size: 32px;
+        border: none;
+        cursor: pointer;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: var(--light-grey);
+        width: auto;
+        min-width: 160px;
+    }
+    .dropdown-content a {
+        color: var(--icon-color);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: var(--dark-grey)
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown:hover .dropbtn {
+        background-color: var(--dark-grey);
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
     .container {
         flex-direction: column;
         flex-wrap: wrap;
@@ -240,6 +290,7 @@ footer a {
 
     .top-section {
         padding: 0px;
+        padding-bottom: 75px;
     }
     .top {
         display: flex;
@@ -255,19 +306,21 @@ footer a {
     }
     .about-head {
         width: 180px;
+        padding-bottom: 0px;
     }
     .about-text {
         align-self: center;
+        padding-top: 50px;
     }
 
     .footer-body{
         flex-direction: column;
     }
     footer {
-        padding: 0px 50px 0px 50px;
+        padding: 0px 50px 25px 50px;
     }
     .contact-details {
-        width: 800px;
+        width: 400px;
         padding-left: 0px;
         padding-right: 0px;
     }
