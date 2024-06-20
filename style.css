@@ -7,6 +7,15 @@
     --other-orange: #ffa500;
 }
 
+body {
+    background-color: var(--white);
+    margin: 0%;
+
+    font-family: "Days One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* BANNER */
 .banner {
     display: flex;
@@ -60,7 +69,6 @@
 } .item a:hover {
     background-color: #111;
 } 
-
 .dropdown {
     display: none;
 }
@@ -83,16 +91,6 @@ h1 {
     font-family: "Days One", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-
-body {
-    background-color: var(--white);
-    margin: 0%;
-
-    font-family: "Days One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-
 }
 
 
@@ -146,7 +144,8 @@ body {
 }
 .about-head {
     color: var(--icon-color);
-    width: 250px;    
+    width: 400px;    
+    align-self: center;
     font-family: "Rock Salt", cursive;
     font-weight: 400;
     font-style: normal;
@@ -306,7 +305,7 @@ footer a {
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
 
     .container {
         flex-direction: column;
