@@ -1,3 +1,16 @@
+
+// MOBILE NAVBAR
+function toggleNavbar() {
+    var x = document.getElementById("mobile-nav");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+
+// PORTFOLIO
 fetch('projects.json').then(function (res) {
     return res.json()
 }).then(function(data) {

@@ -24,7 +24,12 @@
     gap: 25px;
     padding-right: 15px;
 }
-
+.dropdown-button {
+    display: none;
+}
+.mobile-nav {
+    display: none;
+}
 
 /* NAVBAR */
 .navbar {
@@ -241,41 +246,58 @@ footer a {
         display: none;
     }
 
-    .dropdown-main {
+    .banner {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px 10px 20px;
+        background-color: var(--dark-grey);
+    } header span {
+        color: var(--icon-color);
+        gap: 15px;
+    }.banner-content{
+        display: inline-block;
+        font-family: "Rock Salt", cursive;
+        font-weight: 400;
+        font-style: normal;
+        gap: 25px;
+        padding-right: 0px;
     }
+
     .dropdown-button {
+        display: inherit;
         background-color: var(--dark-grey);
         color: var(--icon-color);
-        padding: 0px 16px 16px 16px;
+        padding: 0px 0px 16px 0px;
         font-size: 32px;
         border: none;
         cursor: pointer;
     }
-    .dropdown {
-        position: relative;
-        display: inline-block;
+
+    .mobile-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: var(--light-grey);
+    .mobile-nav-content {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+    .mobile-nav-item {
+        display: block;
         width: auto;
-        min-width: 160px;
+        background-color: var(--light-grey);
+        padding: 25px;
+        text-align: center;
     }
-    .dropdown-content a {
+    .mobile-nav-item a {
         color: var(--icon-color);
-        padding: 12px 16px;
         text-decoration: none;
-        display: block;
     }
-    .dropdown-content a:hover {
-        background-color: var(--dark-grey)
-    }
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-    .dropdown:hover .dropbtn {
+    .mobile-nav-item:hover {
         background-color: var(--dark-grey);
+        color: var(--icon-color);
     }
 
 }
