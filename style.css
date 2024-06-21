@@ -51,7 +51,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: var(--dark-grey);
 } .item {
     display: inline-block;
     width: 180px;
@@ -67,7 +67,9 @@ body {
     padding: 20px 20px;
     text-decoration: none;
 } .item a:hover {
-    background-color: #111;
+    background-color: var(--light-grey);
+    color: var(--other-orange);
+    border-radius: 15px;
 } 
 .dropdown {
     display: none;
@@ -112,7 +114,7 @@ h1 {
 
 /* TOP */
 .top-section {
-    background-color: whitesmoke;
+    background-color: var(--white);
     padding: 50px 0px 50px 0px;
 }
 .top {
@@ -136,7 +138,7 @@ h1 {
 
 /* ABOUT */
 .about-section {
-    background-color: #333;
+    background-color: var(--light-grey);
 }
 .about-content  {
     display: flex;
@@ -177,6 +179,7 @@ h1 {
 }
 .target a {
     color: var(--icon-color);
+    text-decoration: none;
 }.target a:hover {
     color: var(--other-orange);
 }
@@ -234,6 +237,10 @@ i:hover {
 }
 footer a {
     color: var(--icon-color);
+    text-decoration: none;
+}
+footer a:hover {
+    color: var(--other-orange);
 }
 .copyright {
     align-self: center;
@@ -342,7 +349,7 @@ footer a {
         flex-direction: column;
     }
     footer {
-        padding: 0px 50px 25px 50px;
+        padding: 0px 25px 25px 25px;
     }
     .contact-details {
         width: 400px;
