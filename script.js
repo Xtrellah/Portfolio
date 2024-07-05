@@ -6,7 +6,21 @@ function toggleNavbar() {
     document.querySelector('.mobile-nav').classList.toggle('visible')
   }
 
-document.querySelector('.dropdown-button').addEventListener('click', toggleNavbar)
+document.querySelector('.dropdown-button-bar').addEventListener('click', toggleNavbar)
+document.querySelector('.dropdown-button-x').addEventListener('click', toggleNavbar)
+
+
+
+// DROPDOWN BUTTON
+
+function toggleButtons() {
+    console.log('hello')
+    document.querySelector('.dropdown-button-bar').classList.toggle('visible')
+    document.querySelector('.dropdown-button-x').classList.toggle('visible')
+  }
+
+document.querySelector('.dropdown-button-bar').addEventListener('click', toggleButtons)
+document.querySelector('.dropdown-button-x').addEventListener('click', toggleButtons)
 
 
 

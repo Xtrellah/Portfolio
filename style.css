@@ -33,7 +33,10 @@ body {
     gap: 25px;
     padding-right: 15px;
 }
-.dropdown-button {
+.dropdown-button-bar {
+    display: none;
+}
+.dropdown-button-x {
     display: none;
 }
 .mobile-nav {
@@ -270,7 +273,7 @@ footer a:hover {
         padding-right: 0px;
     }
 
-    .dropdown-button {
+    .dropdown-button-bar {
         display: inherit;
         background-color: var(--dark-grey);
         color: var(--icon-color);
@@ -278,6 +281,21 @@ footer a:hover {
         font-size: 32px;
         border: none;
         cursor: pointer;
+    }
+    .dropdown-button-x {
+        display: none;
+        background-color: var(--dark-grey);
+        color: var(--icon-color);
+        padding: 0px 2px 16px 2px;
+        font-size: 32px;
+        border: none;
+        cursor: pointer;
+    }
+    .dropdown-button-bar.visible {
+        display: none;
+    }
+    .dropdown-button-x.visible {
+        display: inherit;
     }
 
     .mobile-nav.visible {
