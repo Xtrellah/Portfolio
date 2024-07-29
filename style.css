@@ -138,6 +138,20 @@ h1 {
     font-size: 25px;
 }
 
+/* LANGUAGES */
+.languages-section {
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding: 75px 0px 50px 0px;
+}
+.languages-section i {
+    color: var(--light-grey);
+    font-size: 108px;
+}
+.languages-section i:hover {
+    color: var(--light-grey);
+}
 
 /* ABOUT */
 .about-section {
