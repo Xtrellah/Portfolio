@@ -1,43 +1,26 @@
 {
     "project": [
       {
-        "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
-        "name": "Project 1",
-        "desc": "This project is...",
-        "link": "https://github.com/Xtrellah/CSSite"
+        "image": "Images/Portfolio Thumbnails/1.png",
+        "name": "Invoicing App",
+        "desc": "For this project we used ReactJS to create the frontend for an invoice app. In the app you are able to sort, view, create and mark as paid the invoices.",
+        "github": "https://github.com/iO-Academy/2024-may-invoicing-sw-flamingos",
+        "link": "https://2024-may-sde-invoicing-sw-flamingos.dev.io-academy.uk/"
       },
       
       {
-        "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
-        "name": "Project 2",
-        "desc": "This project is...",
-        "link": "https://github.com/Xtrellah/CSSite"
+        "image": "Images/Portfolio Thumbnails/2.png",
+        "name": "Music Player App",
+        "desc": "For this project we used PHP in combination with a MySQL database to create the backend for a spotify-like music playing app, where you are able to select an artist, view their albums. Playing or favouriting a song would load a query to update the database.",
+        "github": "https://github.com/iO-Academy/2024-may-music-player-uWu-ShruWu",
+        "link": "https://github.com/iO-Academy/2024-may-music-player-uWu-ShruWu"
       },
       
       {
-        "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
-        "name": "Project 3",
-        "desc": "This project is...",
-        "link": "https://github.com/Xtrellah/CSSite"
-      },
-      {
-        "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
-        "name": "Project 4",
-        "desc": "This project is...",
-        "link": "https://github.com/Xtrellah/CSSite"
-      },
-      
-      {
-        "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
-        "name": "Project 5",
-        "desc": "This project is...",
-        "link": "https://github.com/Xtrellah/CSSite"
-      },
-      
-      {
-        "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
+        "image": "Images/Portfolio Thumbnails/3.png",
         "name": "Portfolio",
-        "desc": "This is the site you're currently viewing.",
+        "desc": "This is the site you're currently viewing. Made using HTML, CSS and JavaScript. Like my other projects it is reactive and can be viewd in mobile or desktop tanks to media query.",
+        "github": "https://github.com/Xtrellah/Portfolio",
         "link": "https://github.com/Xtrellah/Portfolio"
       }
     ]

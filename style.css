@@ -210,12 +210,17 @@ h1 {
 }
 .target div {
     align-items: center;
-    align-content: center;
-    border-style: groove;
+    align-content: start;
+    border-style: none;
     border-color: grey;
     background-color: white;
     width: 300px;
     height: auto;
+}
+.target div:hover {
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);;
+    transition-duration: 0.5s;
+    transform: scale(1.05);
 }
 .target a {
     color: var(--icon-color);
