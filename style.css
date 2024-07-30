@@ -1,7 +1,7 @@
 :root {
     --icon-color: #fe6100;
     --dark-grey: #111111;
-    --light-grey: #333333;
+    --light-grey: #262626;
     --white: whitesmoke;
     --background-orange: #ffab3d;
     --other-orange: #ffa500;
@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: flex-start;
     padding: 20px 20px 10px 20px;
-    background-color: var(--dark-grey);
+    background-color: var(--light-grey);
 } header span {
     color: var(--icon-color);
     gap: 15px;
@@ -54,7 +54,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: var(--dark-grey);
+    background-color: var(--light-grey);
 } .item {
     display: inline-block;
     width: 180px;
@@ -70,7 +70,7 @@ body {
     padding: 20px 20px;
     text-decoration: none;
 } .item a:hover {
-    background-color: var(--light-grey);
+    background-color: none;
     color: var(--other-orange);
     border-radius: 15px;
 } 
@@ -126,6 +126,9 @@ h1 {
     justify-content: center;
 
 }
+.top h1 {
+    margin-bottom: 0px;
+}
 
 /* SECTION HEADER */
 .section-header {
@@ -144,7 +147,7 @@ h1 {
 }
 .about-content  {
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-between;
 }
 .about-head {
     color: var(--icon-color);
