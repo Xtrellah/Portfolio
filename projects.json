@@ -3,14 +3,16 @@
       {
         "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
         "name": "Project 1",
-        "desc": "This project is...",
-        "link": "https://github.com/Xtrellah/CSSite"
+        "desc": "For this project we sued ReactJS to create the frontend for an invoice app.",
+        "github": "https://github.com/iO-Academy/2024-may-invoicing-sw-flamingos",
+        "link": "https://2024-may-sde-invoicing-sw-flamingos.dev.io-academy.uk/"
       },
       
       {
         "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
         "name": "Project 2",
         "desc": "This project is...",
+        "github": "https://github.com/Xtrellah/CSSite",
         "link": "https://github.com/Xtrellah/CSSite"
       },
       
@@ -18,12 +20,14 @@
         "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
         "name": "Project 3",
         "desc": "This project is...",
+        "github": "https://github.com/Xtrellah/CSSite",
         "link": "https://github.com/Xtrellah/CSSite"
       },
       {
         "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
         "name": "Project 4",
         "desc": "This project is...",
+        "github": "https://github.com/Xtrellah/CSSite",
         "link": "https://github.com/Xtrellah/CSSite"
       },
       
@@ -31,6 +35,7 @@
         "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
         "name": "Project 5",
         "desc": "This project is...",
+        "github": "https://github.com/Xtrellah/CSSite",
         "link": "https://github.com/Xtrellah/CSSite"
       },
       
@@ -38,6 +43,7 @@
         "image": "https://placeholder.pics/svg/300x150/DEDEDE/555555/place",
         "name": "Portfolio",
         "desc": "This is the site you're currently viewing.",
+        "github": "https://github.com/Xtrellah/Portfolio",
         "link": "https://github.com/Xtrellah/Portfolio"
       }
     ]
