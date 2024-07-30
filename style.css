@@ -22,10 +22,14 @@ body {
     justify-content: flex-start;
     padding: 20px 20px 10px 20px;
     background-color: var(--light-grey);
-} header span {
+}
+
+header span {
     color: var(--icon-color);
     gap: 15px;
-}.banner-content{
+}
+
+.banner-content {
     display: inline-block;
     font-family: "Rock Salt", cursive;
     font-weight: 400;
@@ -33,12 +37,15 @@ body {
     gap: 25px;
     padding-right: 15px;
 }
+
 .dropdown-button-bar {
     display: none;
 }
+
 .dropdown-button-x {
     display: none;
 }
+
 .mobile-nav {
     display: none;
 }
@@ -47,33 +54,41 @@ body {
 .navbar {
     display: flex;
     justify-content: center
+}
 
-}.navlist {
+.navlist {
     width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: var(--light-grey);
-} .item {
+}
+
+.item {
     display: inline-block;
     width: 180px;
     height: 100%;
-    
+
     font-family: "Days One", sans-serif;
     font-weight: 400;
     font-style: normal;
-} .item a {
+}
+
+.item a {
     display: block;
     color: var(--icon-color);
     text-align: center;
     padding: 20px 20px;
     text-decoration: none;
-} .item a:hover {
+}
+
+.item a:hover {
     background-color: none;
     color: var(--other-orange);
     border-radius: 15px;
-} 
+}
+
 .dropdown {
     display: none;
 }
@@ -83,12 +98,14 @@ body {
     font-family: "Rock Salt", cursive;
     font-weight: 400;
     font-style: normal;
-} .days-one-regular {
+}
+
+.days-one-regular {
     font-family: "Days One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-  
+
 
 /* MISC */
 h1 {
@@ -109,10 +126,10 @@ h1 {
     gap: 15px;
     background-color: none;
 }
+
 .container div {
     gap: 25px;
     padding: 25px;
-
 }
 
 /* TOP */
@@ -120,14 +137,45 @@ h1 {
     background-color: var(--white);
     padding: 50px 0px 50px 0px;
 }
+
 .top {
     display: flex;
     gap: 15px;
     justify-content: center;
-
 }
+
+.top-head {
+    width: 600px;
+    padding: 0px 0px 0px 50px;
+}
+
 .top h1 {
     margin-bottom: 0px;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: none;
+}
+
+.slideshow-container div {
+    padding: 0px;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 /* SECTION HEADER */
@@ -145,18 +193,21 @@ h1 {
 .about-section {
     background-color: var(--light-grey);
 }
-.about-content  {
+
+.about-content {
     display: flex;
     justify-content: space-between;
 }
+
 .about-head {
     color: var(--icon-color);
-    width: 400px;    
+    width: 400px;
     align-self: center;
     font-family: "Rock Salt", cursive;
     font-weight: 400;
     font-style: normal;
 }
+
 .about-text {
     background-color: none;
     color: whitesmoke;
@@ -167,18 +218,21 @@ h1 {
 .skill-section {
     background-color: var(--light-grey);
 }
-.skill-content  {
+
+.skill-content {
     display: flex;
-    justify-content: none; 
+    justify-content: none;
 }
+
 .skill-head {
     color: var(--icon-color);
-    width: 200px;    
+    width: 200px;
     align-self: center;
     font-family: "Rock Salt", cursive;
     font-weight: 400;
     font-style: normal;
 }
+
 .skill-text {
     background-color: none;
     color: whitesmoke;
@@ -189,14 +243,17 @@ h1 {
 .languages-section {
     padding: 50px 0px 25px 0px;
 }
+
 .languages-section div {
     display: flex;
     justify-content: space-evenly;
 }
+
 .languages-section i {
     color: var(--light-grey);
     font-size: 108px;
 }
+
 .languages-section i:hover {
     color: var(--light-grey);
 }
@@ -206,11 +263,13 @@ h1 {
 .portfolio {
     padding-bottom: 50px;
 }
+
 .target {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 .target div {
     align-items: center;
     align-content: start;
@@ -220,15 +279,20 @@ h1 {
     width: 300px;
     height: auto;
 }
+
 .target div:hover {
-    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
+    ;
     transition-duration: 0.5s;
     transform: scale(1.05);
 }
+
 .target a {
     color: var(--icon-color);
     text-decoration: none;
-}.target a:hover {
+}
+
+.target a:hover {
     color: var(--other-orange);
 }
 
@@ -254,49 +318,57 @@ footer {
 
     padding: 0px 0px 0px 50px;
 }
-.footer-body{
+
+.footer-body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     text-align: start;
 }
+
 .contact-details {
     width: 800px;
     padding-left: 150px;
     padding-right: 200px;
 }
+
 .socials {
     font-size: 2rem;
     color: var(--white);
     display: flex;
-    
+
     gap: 20px;
     width: 300px;
     margin-bottom: 15px;
     align-content: center;
 }
+
 i {
     color: var(--icon-color);
     align-items: center;
     gap: 25px;
 }
+
 i:hover {
     color: var(--other-orange);
 }
+
 footer a {
     color: var(--icon-color);
     text-decoration: none;
 }
+
 footer a:hover {
     color: var(--other-orange);
 }
+
 .copyright {
     align-self: center;
     padding-top: 15px;
 }
 
 @media screen and (max-width: 800px) {
-    
+
     .navbar {
         display: none;
     }
@@ -306,10 +378,14 @@ footer a:hover {
         justify-content: space-between;
         padding: 20px 20px 10px 20px;
         background-color: var(--dark-grey);
-    } header span {
+    }
+
+    header span {
         color: var(--icon-color);
         gap: 15px;
-    }.banner-content{
+    }
+
+    .banner-content {
         display: inline-block;
         font-family: "Rock Salt", cursive;
         font-weight: 400;
@@ -327,6 +403,7 @@ footer a:hover {
         border: none;
         cursor: pointer;
     }
+
     .dropdown-button-x {
         display: none;
         background-color: var(--dark-grey);
@@ -336,9 +413,11 @@ footer a:hover {
         border: none;
         cursor: pointer;
     }
+
     .dropdown-button-bar.visible {
         display: none;
     }
+
     .dropdown-button-x.visible {
         display: inherit;
     }
@@ -346,17 +425,20 @@ footer a:hover {
     .mobile-nav.visible {
         display: none;
     }
+
     .mobile-nav {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
     .mobile-nav-content {
         list-style-type: none;
         margin: 0;
         padding: 0;
         align-items: center;
     }
+
     .mobile-nav-item {
         display: block;
         width: auto;
@@ -364,10 +446,12 @@ footer a:hover {
         padding: 25px;
         text-align: center;
     }
+
     .mobile-nav-item a {
         color: var(--icon-color);
         text-decoration: none;
     }
+
     .mobile-nav-item:hover {
         background-color: var(--dark-grey);
         color: var(--icon-color);
@@ -387,6 +471,7 @@ footer a:hover {
         padding: 0px;
         padding-bottom: 75px;
     }
+
     .top {
         display: flex;
         flex-direction: column-reverse;
@@ -394,26 +479,30 @@ footer a:hover {
         justify-content: center;
     }
 
-    .about-content  {
+    .about-content {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center; 
+        justify-content: center;
     }
+
     .about-head {
         width: 180px;
         padding-bottom: 0px;
     }
+
     .about-text {
         align-self: center;
         padding-top: 50px;
     }
 
-    .footer-body{
+    .footer-body {
         flex-direction: column;
     }
+
     footer {
         padding: 0px 25px 25px 25px;
     }
+
     .contact-details {
         width: 400px;
         padding-left: 0px;
