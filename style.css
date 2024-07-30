@@ -138,21 +138,6 @@ h1 {
     font-size: 25px;
 }
 
-/* LANGUAGES */
-.languages-section {
-    display: flex;
-    justify-content: space-evenly;
-    
-    padding: 75px 0px 50px 0px;
-}
-.languages-section i {
-    color: var(--light-grey);
-    font-size: 108px;
-}
-.languages-section i:hover {
-    color: var(--light-grey);
-}
-
 /* ABOUT */
 .about-section {
     background-color: var(--light-grey);
@@ -173,6 +158,44 @@ h1 {
     background-color: none;
     color: whitesmoke;
     align-self: center;
+}
+
+/* SKILL */
+.skill-section {
+    background-color: var(--light-grey);
+}
+.skill-content  {
+    display: flex;
+    justify-content: none; 
+}
+.skill-head {
+    color: var(--icon-color);
+    width: 200px;    
+    align-self: center;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.skill-text {
+    background-color: none;
+    color: whitesmoke;
+    align-self: center;
+}
+
+/* LANGUAGES */
+.languages-section {
+    padding: 50px 0px 25px 0px;
+}
+.languages-section div {
+    display: flex;
+    justify-content: space-evenly;
+}
+.languages-section i {
+    color: var(--light-grey);
+    font-size: 108px;
+}
+.languages-section i:hover {
+    color: var(--light-grey);
 }
 
 
