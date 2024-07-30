@@ -10,7 +10,7 @@
       
       {
         "image": "Images/Portfolio Thumbnails/2.png",
-        "name": "Project 2",
+        "name": "Music Player App",
         "desc": "For this project we used PHP in combination with a MySQL database to create the backend for a spotify-like music playing app, where you are able to select an artist, view their albums. Playing or favouriting a song would load a query to update the database.",
         "github": "https://github.com/iO-Academy/2024-may-music-player-uWu-ShruWu",
         "link": "https://github.com/iO-Academy/2024-may-music-player-uWu-ShruWu"
