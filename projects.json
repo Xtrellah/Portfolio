@@ -15,6 +15,22 @@
         "github": "https://github.com/iO-Academy/2024-may-music-player-uWu-ShruWu",
         "link": "https://github.com/iO-Academy/2024-may-music-player-uWu-ShruWu"
       },
+
+      {
+        "image": "Images/Portfolio Thumbnails/2.png",
+        "name": "Book Swap API",
+        "desc": "For this project we used Laravel in combination with a MySQL database to create the backend for a book swapping app, where you are able to filter and view books, add new books, claim and unclaim books and . All of these features",
+        "github": "https://github.com/iO-Academy/2024-may-sde-komodo-kode-book-swap-api",
+        "link": "https://github.com/iO-Academy/2024-may-sde-komodo-kode-book-swap-api"
+      },
+
+      {
+        "image": "Images/Portfolio Thumbnails/2.png",
+        "name": "Todo App API",
+        "desc": "This was a solo project which I used Laravel to create an API for a Todo App. I experimented with using Blade to make view available in the queryfor testing purposes.",
+        "github": "https://github.com/iO-Academy/2024-may-sde-komodo-kode-book-swap-api",
+        "link": "https://github.com/iO-Academy/2024-may-sde-komodo-kode-book-swap-api"
+      },
       
       {
         "image": "Images/Portfolio Thumbnails/3.png",
