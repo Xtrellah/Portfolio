@@ -1,6 +1,4 @@
-
 // MOBILE NAVBAR
-
 function toggleNavbar() {
   console.log('hello')
   document.querySelector('.mobile-nav').classList.toggle('visible')
@@ -9,10 +7,7 @@ function toggleNavbar() {
 document.querySelector('.dropdown-button-bar').addEventListener('click', toggleNavbar)
 document.querySelector('.dropdown-button-x').addEventListener('click', toggleNavbar)
 
-
-
 // DROPDOWN BUTTON
-
 function toggleButtons() {
   console.log('hello')
   document.querySelector('.dropdown-button-bar').classList.toggle('visible')
@@ -23,7 +18,6 @@ document.querySelector('.dropdown-button-bar').addEventListener('click', toggleB
 document.querySelector('.dropdown-button-x').addEventListener('click', toggleButtons)
 
 // SLIDESHOW
-
 let slideIndex = 0;
 showSlides();
 
@@ -40,7 +34,6 @@ function showSlides() {
 }
 
 // PORTFOLIO
-
 fetch('projects.json').then(function (res) {
   return res.json()
 }).then(function (data) {
@@ -48,7 +41,6 @@ fetch('projects.json').then(function (res) {
   const target = document.querySelector('.target')
 
   data.project.forEach(function (project) {
-    console.log(project.name)
     target.innerHTML += `
             <div>
                 <img src="${project.image}" width="300"/>
@@ -56,6 +48,24 @@ fetch('projects.json').then(function (res) {
                 <p>${project.desc}</p>
                 <a href="${project.github}" target="_blank">Check it out on GitHub!</a><br>
                 <a href="${project.link}" target="_blank">Check out the live version!</a>
+            </div>
+        `
+  })
+})
+
+// CERTIFICATES
+fetch('certificates.json').then(function (res) {
+  return res.json()
+}).then(function (data) {
+
+  const target = document.querySelector('.target2')
+
+  data.certificate.forEach(function (certificate) {
+    target.innerHTML += `
+            <div>
+                <img src="${certificate.image}" width="300"/>
+                <h3>${certificate.name}</h3>
+                <p>${certificate.desc}</p>
             </div>
         `
   })
