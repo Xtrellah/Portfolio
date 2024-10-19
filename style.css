@@ -258,7 +258,6 @@ h1 {
     color: var(--light-grey);
 }
 
-
 /* PORTFOLIO */
 .portfolio {
     padding-bottom: 50px;
@@ -293,6 +292,33 @@ h1 {
 
 .target a:hover {
     color: var(--other-orange);
+}
+
+/* certificates */
+.target2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.target2 div {
+    align-items: center;
+    align-content: start;
+    width: 350px;
+    height: auto;
+    padding: 0px;
+    text-align: center;
+}
+
+.target2 img {
+    width: 350px;
+    height: auto;
+}
+
+.target2 img:hover {
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
+    transition-duration: 0.5s;
+    transform: scale(1.05);
 }
 
 /* FOOTER HEADER */
@@ -457,7 +483,6 @@ footer a:hover {
     }
 
 }
-
 
 @media screen and (max-width: 1050px) {
 
