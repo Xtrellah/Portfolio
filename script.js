@@ -54,19 +54,44 @@ fetch('projects.json').then(function (res) {
 })
 
 // CERTIFICATES
-fetch('certificates.json').then(function (res) {
-  return res.json()
-}).then(function (data) {
-
-  const target = document.querySelector('.target2')
-
-  data.certificate.forEach(function (certificate) {
-    target.innerHTML += `
-            <div>
-                <img src="${certificate.image}" width="300"/>
-                <h3>${certificate.name}</h3>
-                <p>${certificate.desc}</p>
-            </div>
-        `
+fetch('certificates.json')
+  .then(function (res) {
+    return res.json();
   })
-})
+  .then(function (data) {
+    const target = document.querySelector('.target2');
+
+    data.certificate.forEach(function (certificate) {
+      target.innerHTML += `
+        <div class="certificate-item">
+          <img src="${certificate.image}" width="300" class="certificate-img" alt="${certificate.name}" />
+          <h3>${certificate.name}</h3>
+          <p>${certificate.desc}</p>
+        </div>
+      `;
+    });
+
+    const images = document.querySelectorAll('.certificate-img');
+    const modal = document.getElementById('certificates-modal');
+    const modalImg = document.getElementById('certificates-modal-img');
+    const captionText = document.getElementById('certificates-modal-caption');
+    const closeModal = document.querySelector('.close');
+
+    images.forEach(function (img) {
+      img.addEventListener('click', function () {
+        modal.style.display = 'block';
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      });
+    });
+
+    closeModal.addEventListener('click', function () {
+      modal.style.display = 'none';
+    });
+
+    window.addEventListener('click', function (e) {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+  });
