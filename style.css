@@ -299,6 +299,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 0px;
 }
 
 .target2 div {
@@ -319,6 +320,26 @@ h1 {
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
     transition-duration: 0.5s;
     transform: scale(1.05);
+}
+
+/* CERTIFICATES TOGGLE */
+.certificates-buttons {
+    text-align: center;
+}
+
+.certificates-toggle {
+    font-family: "Days One", sans-serif;
+    padding: 10px;
+    background-color: var(--white);
+    border: none;
+}
+
+.certificates-content {
+    display: none;
+}
+
+.certificates-content.visible {
+    display: contents;
 }
 
 /* CERITIFICATES MODAL */

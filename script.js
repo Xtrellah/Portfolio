@@ -54,11 +54,16 @@ fetch('projects.json').then(function (res) {
 })
 
 // CERTIFICATES
+document.querySelector('.certificates-toggle').addEventListener('click', function() {
+  document.querySelector('.certificates-content').classList.toggle('visible');
+});
+
 fetch('certificates.json')
   .then(function (res) {
     return res.json();
   })
   .then(function (data) {
+    
     const target = document.querySelector('.target2');
 
     data.certificate.forEach(function (certificate) {
