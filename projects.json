@@ -31,6 +31,14 @@
         "github": "https://github.com/Xtrellah/Todo-App-Laravel",
         "link": "https://github.com/Xtrellah/Todo-App-Laravel"
       },
+
+      {
+        "image": "Images/Portfolio Thumbnails/Example.gif",
+        "name": "Darker Screen App",
+        "desc": "I developed this to darken the screen more than would usually be possible with built in features. Built in C++, Darker Screen works by overlaying a black window with an adjustable opacity via a slider.",
+        "github": "https://github.com/Xtrellah/Darker-Screen-App",
+        "link": "https://2024-maxe.dev.io-academy.uk/Darker-Screen/"
+      },
       
       {
         "image": "Images/Portfolio Thumbnails/4.png",
