@@ -1,0 +1,14 @@
+{
+    "certificate": [
+        {
+            "image": "Images/Certificates/python-foundations.png",
+            "name": "Python Foundations",
+            "desc": "Zenva Academy"
+        },
+        {
+            "image": "Images/Certificates/python-101.png",
+            "name": "Python 101",
+            "desc": "Zenva Academy"
+        }
+    ]
+}

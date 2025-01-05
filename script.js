@@ -1,6 +1,4 @@
-
 // MOBILE NAVBAR
-
 function toggleNavbar() {
   console.log('hello')
   document.querySelector('.mobile-nav').classList.toggle('visible')
@@ -9,10 +7,7 @@ function toggleNavbar() {
 document.querySelector('.dropdown-button-bar').addEventListener('click', toggleNavbar)
 document.querySelector('.dropdown-button-x').addEventListener('click', toggleNavbar)
 
-
-
 // DROPDOWN BUTTON
-
 function toggleButtons() {
   console.log('hello')
   document.querySelector('.dropdown-button-bar').classList.toggle('visible')
@@ -23,7 +18,6 @@ document.querySelector('.dropdown-button-bar').addEventListener('click', toggleB
 document.querySelector('.dropdown-button-x').addEventListener('click', toggleButtons)
 
 // SLIDESHOW
-
 let slideIndex = 0;
 showSlides();
 
@@ -40,7 +34,6 @@ function showSlides() {
 }
 
 // PORTFOLIO
-
 fetch('projects.json').then(function (res) {
   return res.json()
 }).then(function (data) {
@@ -48,7 +41,6 @@ fetch('projects.json').then(function (res) {
   const target = document.querySelector('.target')
 
   data.project.forEach(function (project) {
-    console.log(project.name)
     target.innerHTML += `
             <div>
                 <img src="${project.image}" width="300"/>
@@ -60,3 +52,51 @@ fetch('projects.json').then(function (res) {
         `
   })
 })
+
+// CERTIFICATES
+document.querySelector('.certificates-toggle').addEventListener('click', function() {
+  document.querySelector('.certificates-content').classList.toggle('visible');
+});
+
+fetch('certificates.json')
+  .then(function (res) {
+    return res.json();
+  })
+  .then(function (data) {
+    
+    const target = document.querySelector('.target2');
+
+    data.certificate.forEach(function (certificate) {
+      target.innerHTML += `
+        <div class="certificate-item">
+          <img src="${certificate.image}" width="300" class="certificate-img" alt="${certificate.name}" />
+          <h3>${certificate.name}</h3>
+          <p>${certificate.desc}</p>
+        </div>
+      `;
+    });
+
+    const images = document.querySelectorAll('.certificate-img');
+    const modal = document.getElementById('certificates-modal');
+    const modalImg = document.getElementById('certificates-modal-img');
+    const captionText = document.getElementById('certificates-modal-caption');
+    const closeModal = document.querySelector('.close');
+
+    images.forEach(function (img) {
+      img.addEventListener('click', function () {
+        modal.style.display = 'block';
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      });
+    });
+
+    closeModal.addEventListener('click', function () {
+      modal.style.display = 'none';
+    });
+
+    window.addEventListener('click', function (e) {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+  });
