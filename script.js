@@ -34,27 +34,34 @@ function showSlides() {
 }
 
 // PORTFOLIO
-fetch('projects.json').then(function (res) {
-  return res.json()
-}).then(function (data) {
-
-  const target = document.querySelector('.target')
-
-  data.project.forEach(function (project) {
-    target.innerHTML += `
-            <div>
-                <img src="${project.image}" width="300"/>
-                <h2>${project.name}</h2>
-                <p>${project.desc}</p>
-                <a href="${project.github}" target="_blank">Check it out on GitHub!</a><br>
-                <a href="${project.link}" target="_blank">Check out the live version!</a>
-            </div>
-        `
+fetch('projects.json')
+  .then(function (res) {
+    return res.json();
   })
-})
+  .then(function (data) {
+    const target = document.querySelector('.target');
+
+    data.projects.forEach(function (project) {
+      const iconsHTML = project.icons
+        .map(icon => `<img src="${icon}" width="30px"/>`)
+        .join('');
+
+      target.innerHTML += `
+        <div>
+          <img src="${project.image}" width="300" />
+          <h2>${project.name}</h2>
+          <span>${iconsHTML}</span>
+          <p>${project.description}</p>
+          <a href="${project.github}" target="_blank">Check it out on GitHub!</a><br>
+          <a href="${project.link}" target="_blank">Check out the live version!</a>
+        </div>
+      `;
+    });
+  });
+
 
 // CERTIFICATES
-document.querySelector('.certificates-toggle').addEventListener('click', function() {
+document.querySelector('.certificates-toggle').addEventListener('click', function () {
   document.querySelector('.certificates-content').classList.toggle('visible');
 });
 
@@ -63,7 +70,7 @@ fetch('certificates.json')
     return res.json();
   })
   .then(function (data) {
-    
+
     const target = document.querySelector('.target2');
 
     data.certificate.forEach(function (certificate) {

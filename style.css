@@ -295,6 +295,15 @@ h1 {
     transform: scale(1.05);
 }
 
+.target h2 {
+    margin-bottom: 10px;
+}
+
+.target span img {
+    border-radius: 10%;
+    margin-right: 5px;
+}
+
 .target a {
     color: var(--icon-color);
     text-decoration: none;
