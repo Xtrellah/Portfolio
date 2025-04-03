@@ -1,51 +1,66 @@
 {
-    "project": [
-      {
-        "image": "Images/Portfolio Thumbnails/1.png",
-        "name": "Invoicing App",
-        "desc": "For this project we used ReactJS to create the frontend for an invoice app. In the app you are able to view invoices and sort them by ID, Total, Due Date and Date Created as well as create new invoices and mark invoices as paid.",
-        "github": "https://github.com/iO-Academy/2024-may-invoicing-sw-flamingos",
-        "link": "https://2024-may-sde-invoicing-sw-flamingos.dev.io-academy.uk/"
-      },
-      
-      {
-        "image": "Images/Portfolio Thumbnails/2.png",
-        "name": "Music Player App",
-        "desc": "For this project we used PHP in combination with an SQL database to create the backend for a spotify-like music playing app, where you are able to select an artist, view their albums. Playing or favouriting a song would load a query to update the database.",
-        "github": "https://github.com/iO-Academy/2024-may-music-player-uWu-ShruWu",
-        "link": "https://2024-may-sde-music-player-uwu-shruwu.dev.io-academy.uk/"
-      },
-
-      {
-        "image": "Images/Portfolio Thumbnails/6.png",
-        "name": "Book Swap API",
-        "desc": "For this project we used Laravel in combination with an SQL database to create the backend for a book swapping app, where you are able to searchfor and view books, filter by genre, add new books, claim and unclaim books and write reviews for books. All of these features utilise GET, POST, PUT and DELETE requests to update the database,",
-        "github": "https://github.com/iO-Academy/2024-may-sde-komodo-kode-book-swap-api",
-        "link": "https://2024-may-bookswap-fe-komodo-kode.dev.io-academy.uk/"
-      },
-
-      {
-        "image": "Images/Portfolio Thumbnails/5.png",
-        "name": "Todo App API",
-        "desc": "This was a solo project which I used Laravel to create an API for a Todo App. You can use GET, POST, PUT and DELETE requests to alter the list. I experimented with using Blade to make view available in the query for testing purposes.",
-        "github": "https://github.com/Xtrellah/Todo-App-Laravel",
-        "link": "https://github.com/Xtrellah/Todo-App-Laravel"
-      },
-
-      {
-        "image": "Images/Portfolio Thumbnails/Example.gif",
-        "name": "Darker Screen App",
-        "desc": "I developed this to darken the screen more than would usually be possible with built in features. Built in C++, Darker Screen works by overlaying a black window with an adjustable opacity via a slider.",
-        "github": "https://github.com/Xtrellah/Darker-Screen-App",
-        "link": "https://2024-maxe.dev.io-academy.uk/Darker-Screen/"
-      },
-      
-      {
-        "image": "Images/Portfolio Thumbnails/4.png",
-        "name": "Portfolio",
-        "desc": "This is the site you're currently viewing. Made using HTML, CSS and JavaScript. Like my other projects it is reactive and can be viewed in mobile or desktop thanks to media query.",
-        "github": "https://github.com/Xtrellah/Portfolio",
-        "link": "https://github.com/Xtrellah/Portfolio"
-      }
-    ]
-  }
+  "projects": [
+    {
+      "image": "Images/Portfolio Thumbnails/1.png",
+      "name": "Invoicing App",
+      "icons": [
+        "Images/Icons/JS.jpg"
+      ],
+      "description": "For this project we used ReactJS to create the frontend for an invoice app. In the app you are able to view invoices and sort them by ID, Total, Due Date and Date Created as well as create new invoices and mark invoices as paid.",
+      "github": "https://github.com/iO-Academy/2024-may-invoicing-sw-flamingos",
+      "link": "https://2024-may-sde-invoicing-sw-flamingos.dev.io-academy.uk/"
+    },
+    {
+      "image": "Images/Portfolio Thumbnails/2.png",
+      "name": "Music Player App",
+      "icons": [
+        "Images/Icons/PHP.jpg"
+      ],
+      "description": "For this project we used PHP in combination with an SQL database to create the backend for a spotify-like music playing app, where you are able to select an artist, view their albums. Playing or favouriting a song would load a query to update the database.",
+      "github": "https://github.com/iO-Academy/2024-may-music-player-uWu-ShruWu",
+      "link": "https://2024-may-sde-music-player-uwu-shruwu.dev.io-academy.uk/"
+    },
+    {
+      "image": "Images/Portfolio Thumbnails/6.png",
+      "name": "Book Swap API",
+      "icons": [
+        "Images/Icons/PHP.jpg"
+      ],
+      "description": "For this project we used Laravel in combination with an SQL database to create the backend for a book swapping app, where you are able to searchfor and view books, filter by genre, add new books, claim and unclaim books and write reviews for books. All of these features utilise GET, POST, PUT and DELETE requests to update the database,",
+      "github": "https://github.com/iO-Academy/2024-may-sde-komodo-kode-book-swap-api",
+      "link": "https://2024-may-bookswap-fe-komodo-kode.dev.io-academy.uk/"
+    },
+    {
+      "image": "Images/Portfolio Thumbnails/5.png",
+      "name": "Todo App API",
+      "icons": [
+        "Images/Icons/PHP.jpg"
+      ],
+      "description": "This was a solo project which I used Laravel to create an API for a Todo App. You can use GET, POST, PUT and DELETE requests to alter the list. I experimented with using Blade to make view available in the query for testing purposes.",
+      "github": "https://github.com/Xtrellah/Todo-App-Laravel",
+      "link": "https://github.com/Xtrellah/Todo-App-Laravel"
+    },
+    {
+      "image": "Images/Portfolio Thumbnails/Example.gif",
+      "name": "Darker Screen App",
+      "icons": [
+        "Images/Icons/C++.jpg"
+      ],
+      "description": "I developed this to darken the screen more than would usually be possible with built in features. Built in C++, Darker Screen works by overlaying a black window with an adjustable opacity via a slider.",
+      "github": "https://github.com/Xtrellah/Darker-Screen-App",
+      "link": "https://2024-maxe.dev.io-academy.uk/Darker-Screen/"
+    },
+    {
+      "image": "Images/Portfolio Thumbnails/4.png",
+      "name": "Portfolio",
+      "icons": [
+        "Images/Icons/HTML.jpg",
+        "Images/Icons/CSS.jpg",
+        "Images/Icons/JS.jpg"
+      ],
+      "description": "This is the site you're currently viewing. Made using HTML, CSS and JavaScript. Like my other projects it is reactive and can be viewed in mobile or desktop thanks to media query.",
+      "github": "https://github.com/Xtrellah/Portfolio",
+      "link": "https://github.com/Xtrellah/Portfolio"
+    }
+  ]
+}
